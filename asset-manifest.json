@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/kids_game/static/css/main.31d6cfe0.css",
+    "main.js": "/kids_game/static/js/main.c99ecfc7.js",
+    "index.html": "/kids_game/index.html",
+    "main.c99ecfc7.js.map": "/kids_game/static/js/main.c99ecfc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.c99ecfc7.js"
+  ]
+}
