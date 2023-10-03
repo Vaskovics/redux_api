@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/kids_game/static/css/main.31d6cfe0.css",
-    "main.js": "/kids_game/static/js/main.c99ecfc7.js",
-    "index.html": "/kids_game/index.html",
-    "main.c99ecfc7.js.map": "/kids_game/static/js/main.c99ecfc7.js.map"
+    "main.css": "/redux_api/static/css/main.31d6cfe0.css",
+    "main.js": "/redux_api/static/js/main.c99ecfc7.js",
+    "index.html": "/redux_api/index.html",
+    "main.c99ecfc7.js.map": "/redux_api/static/js/main.c99ecfc7.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
