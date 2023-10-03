@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import Component from './components/Component';
-import { useDispatch } from 'react-redux';
 import { actions } from './features/posts';
 import { getPeople } from './api/api';
 import { useAppDispatch } from './store/hooks';
@@ -15,8 +14,13 @@ function App() {
     getPeople()
       .then(data => {
         dispatch(actions.set(data));
+      })
+      .catch(() => {
+        dispatch(actions.setError(true));
+      })
+      .finally(() => {
         dispatch(actions.setLoading(false));
-      });
+      })
   }, []);
 
   return (

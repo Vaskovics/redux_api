@@ -24,6 +24,10 @@ export const postSlice = createSlice({
     setLoading: (state, actions: PayloadAction<boolean>) => {
       state.loading = actions.payload;
     },
+
+    setError: (state, actions: PayloadAction<boolean>) => {
+      state.error = actions.payload;
+    },
   },
 });
 
