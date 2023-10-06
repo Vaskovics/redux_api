@@ -13,7 +13,7 @@ function App() {
     dispatch(actions.setLoading(true));
     getPeople()
       .then(data => {
-        dispatch(actions.set(data));
+        dispatch(actions.setItem(data));
       })
       .catch(() => {
         dispatch(actions.setError(true));

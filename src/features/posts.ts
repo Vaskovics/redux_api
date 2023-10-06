@@ -17,7 +17,7 @@ export const postSlice = createSlice({
   name: 'stateObj',
   initialState,
   reducers: {
-    set: (state, action: PayloadAction<Person[]>) => {
+    setItem: (state, action: PayloadAction<Person[]>) => {
       state.posts = action.payload;
     },
 
